@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/ma0856/openwrt-6.x/tree/kernel-6.8
+  REPO_URL: https://github.com/ma0856/openwrt-6.x
   REPO_BRANCH: kernel-6.8
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
